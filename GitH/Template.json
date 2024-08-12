@@ -1,0 +1,109 @@
+{
+  "pageDimensions": [
+    1560,
+    800
+  ],
+  "bubbleDimensions": [
+    38,
+    38
+  ],
+  "preProcessors": [
+    {
+      "name": "CropOnMarkers",
+      "options": {
+        "relativePath": "omr_marker.jpg",
+        "sheetToMarkerWidthRatio": 15
+      }
+    }
+  ],
+  "customLabels": {
+    "Roll": [
+      "roll1stDigit",
+      "roll2ndDigit",
+      "Medium",
+      "r1",
+      "r2",
+      "r3",
+      "r4"
+    ],
+    "Marks":[
+      "marks_1",
+      "marks_2",
+      "marksPoint"
+    ]
+  },
+  "fieldBlocks": {
+    "roll1stDigit": {
+      "fieldType": "QTYPE_INT",
+      "origin": [
+        490,
+        180
+      ],
+      "bubblesGap": 43,
+      "labelsGap": 0,
+      "fieldLabels": [
+        "roll1stDigit"
+      ]
+    },
+    "roll2ndDigit": {
+      "fieldType": "QTYPE_INT",
+      "origin": [
+        535,
+        180
+      ],
+      "bubblesGap": 43,
+      "labelsGap": 0,
+      "fieldLabels": [
+        "roll2ndDigit"
+      ]
+    },
+    "Medium": {
+      "bubbleValues": [
+        "B",
+        "D",
+        "M",
+        "N",
+        "V"
+      ],
+      "direction": "vertical",
+      "origin": [
+        590,
+        180
+      ],
+      "bubblesGap": 43,
+      "labelsGap": 0,
+      "fieldLabels": [
+        "Medium"
+      ]
+    },
+    "Roll": {
+      "fieldType": "QTYPE_INT",
+      "origin": [
+        645,
+        180
+      ],
+      "bubblesGap": 43,
+      "labelsGap": 44,
+      "fieldLabels": [
+        "r1",
+        "r2",
+        "r3",
+        "r4"
+      ]
+    },
+    "Marks": {
+      "fieldType": "QTYPE_INT",
+      "origin": [
+        885,
+        180
+      ],
+      "bubblesGap": 43,
+      "labelsGap": 44,
+      "fieldLabels": [
+        "marks_1",
+        "marks_2",
+        "marksPoint"
+      ]
+    }
+  }
+}
